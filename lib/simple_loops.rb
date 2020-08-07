@@ -31,6 +31,6 @@ def return_string_array(array)
   
   while array[counter]
     return array[counter]
-    counter -= 1 
+    counter += 1 
   end
 end

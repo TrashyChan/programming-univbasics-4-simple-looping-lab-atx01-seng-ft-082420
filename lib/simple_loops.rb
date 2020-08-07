@@ -30,5 +30,9 @@ def return_string_array(array)
   counter = 0 
   
   while counter < array.length do
-    array[counter] = array[counter]to.s 
+    array[counter] = array[counter].to_s 
+    counter += 1 
+  end
+  array
+end
     

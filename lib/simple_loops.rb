@@ -3,5 +3,6 @@ def loop_message_five_times(string)
   message = "Hello World."
   
   while message[counter] do
-    puts 
+    puts message[counter]
+    counter += 1 
 end
